@@ -1,0 +1,2 @@
+SELECT current.state.reported.temperature, current.state.reported.humidity, current.state.reported.pressure, current.state.reported.PM1_0, current.state.reported.PM2_5, current.state.reported.PM10, current.state.reported.coughs, current.state.reported.sneezes, timestamp FROM '$aws/things/<REPLACE_WITH_THING_ID>/shadow/update/documents'
+
